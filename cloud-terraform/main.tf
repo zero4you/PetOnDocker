@@ -35,7 +35,7 @@ resource "yandex_compute_instance" "vm-1" {
   }
 
   metadata = {
-    user-data = "${file("/home/alik/cloud-terraform/meta.txt")}"
+    user-data = "${file("/home/alik/PetOnDocker/cloud-terraform/meta.txt")}"
   }
 }
 
