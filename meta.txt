@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: alik
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaWm59oX1IAJ9oMIR+DUsqlA1jEdTocnpISTqYZcRbkokUGABlg2XyTvSgKZh40KeD7Xx0dDDEU3R2wxlR7fpupXX/2mfajY+dBUHAtZGjdT5JXBtEKj1F+vNInTGF5jdkJtXWlcDkaa8jCOOSJGaoWQmwj6LlnK1ebP7tVdhdBQ9hvmPO3T/NIiP4JuLcJYWZqHjXbpykCeXJNBFv2MjTLxxefJmCXwrFzX7UlO9cnfEdqkbgZcoBbJnSuyqOOWeryKLii2zcRiV4ijbrqXHWqw/AGJcJpy9t7/SStfwsAef/D8pa55SyGde2lad+V2YTlzzTlVzb1voXZ2ZuIJcN alik@sandro
